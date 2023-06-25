@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "idroid";
+  src: url("pacote-projeto-d010/fontes/idroid.otf") format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: rgb(52, 185, 141);
+}
+
+#titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  padding: 24px;
+  color: white;
+}
+
+.subtitulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.699);
+  padding-bottom: 24px;
+}
+
+.cabecalho {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    #67b99a,
+    #56ab91,
+    #469d89,
+    #358f80,
+    #248277
+  );
+  padding-bottom: 5px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+.cabecalho-conteudo {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  font-style: normal;
+  gap: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.cabecalho-conteudo > p {
+  padding: 5px;
+}
+
+.cabecalho-conteudo > p:hover {
+  background-color: #036666;
+  border-radius: 3px;
+}
+
+.conteudo-principal {
+  font-family: arial;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.conteudo-principal-artigo {
+  background-color: white;
+  padding: 20px;
+}
+
+.conteudo-secundario-artigo {
+  background-color: white;
+  padding: 20px;
+}
+
+.titulo-artigo {
+  font-family: "idroid";
+  padding: 24px;
+  text-align: center;
+  color: #156064;
+  font-size: 35px;
+  text-shadow: 3px 3px 3px rgba(56, 54, 54, 0.349);
+}
+
+.paragrafo-artigo {
+  text-indent: 30px;
+  padding: 20px;
+}
+
+.paragrafo-artigo > span {
+  color: #036666;
+  font-weight: 700;
+}
+
+.paragrafo-artigo > span::after {
+  content: "🔗";
+}
+
+.subtitulo-conteudo {
+  font-family: "idroid";
+  padding: 5px;
+  color: #156064;
+  background-image: linear-gradient(
+    to right,
+    #84cca8,
+    #95d5b2,
+    #b7e4c7,
+    #d8f3dc,
+    white
+  );
+  margin: 19px;
+  text-shadow: 3px 3px 3px rgba(56, 54, 54, 0.349);
+}
+
+.imagem-robo {
+  text-align: center;
+  padding: 20px;
+}
+
+.subtitulo-terciario {
+  font-family: "idroid";
+  color: #156064;
+  background-image: linear-gradient(
+    to right,
+    #84cca8,
+    #95d5b2,
+    #b7e4c7,
+    #d8f3dc,
+    white
+  );
+  margin: 20px;
+  text-shadow: 3px 3px 3px rgba(56, 54, 54, 0.349);
+}
+
+.imagem-irina {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#destaque > span {
+  color: #036666;
+  font-weight: 700;
+}
+
+#destaque {
+  text-indent: 30px;
+  padding: 20px;
+}
+
+.imagem-bugdroid {
+  text-align: center;
+  padding: 35px;
+}
+
+.video-margem {
+  background-color: #1b4332;
+  text-align: center;
+  padding: 24px;
+}
+.video-tamanho {
+  padding: 20px;
+}
+
+.conteudo-terciario {
+  background-color: white;
+  padding: 20px 20px 70px 20px;
+  border-radius: 0px 0px 15px 15px;
+  text-indent: 30px;
+  background-color: #ffffff;
+}
+
+.subtitulo-quarto {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #56ab91;
+  padding: 18px;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.lista {
+  background-color: #b7e4c7;
+  border-radius: 0px 0px 20px 20px;
+  padding: 18px;
+}
+
+.paragrafo-lista {
+  padding: 20px;
+  text-align: justify;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.conteudo-lista {
+  column-count: 2;
+  list-style-position: inside;
+
+}
+
+.conteudo-lista > li::before{
+  content: '✔';
+  padding-right: 10px;
+}
+
+.paragrafo-lista > span::after {
+  content: "🔗";
+}
+
+.paragrafo-lista > span {
+  color: #036666;
+  font-weight: 700;
+}
+
+.paragrafo-final{
+  padding: 20px;
+}
+
+.paragrafo-rodape{
+  text-align: center;
+  padding: 15px;
+  background-color: #1b4332;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.61);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+strong{
+  color: white;
+}
+
+main{
+  margin: auto;
+  min-width: 300px;
+  max-width: 1000px;
+}
